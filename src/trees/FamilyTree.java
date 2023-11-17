@@ -71,7 +71,7 @@ public class FamilyTree
             // recent to ancient. Expect a question about this on the final exam.
             TreeNode n=this;
             while(n.parent!=null) {
-            	ancestors.add(n);
+            	ancestors.add(n.parent);
             	n=n.parent;
             }
 
