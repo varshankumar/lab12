@@ -31,7 +31,8 @@ public class FamilyTree
         
         void addChild(TreeNode childNode)
         {
-            parent.children.add(childNode);
+        	children.add(childNode);
+			childNode.parent = this;
         }
         
         
